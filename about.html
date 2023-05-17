@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Fitness101 | About</title>
+</head>
+<body style="margin: 0; padding: 0; background-image: url(static/gym_background.jpg); background-repeat: no-repeat; background-size: cover; background-position: center; background-color: black;">
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Home</a>
+            <a href="about.html" class="navbar-brand">About</a>
+            <a href="#lifting" class="navbar-brand">Lifting101</a>
+            <a href="#swim" class="navbar-brand">Swim101</a>
+            <a href="#bball" class="navbar-brand">Basketball101</a>
+            <a href="index.html" class="navbar-brand">Contact Us</a>
+        </div>
+    </nav>
+
+    <!-- Header -->
+
+    <header class="bg-dark text-white py-4">
+        <div class="container">
+            <h1 class="text-center">Welcome to Fitness101</h1>
+        </div>
+    </header>
+
+    <!-- Repeat Text for continuity -->
+
+    <div class="container" style=" max-width: 900px; margin: auto; padding: 20px">
+        <section class="bg-dark bg-opacity-75 text-center p-4">
+            <section class="text-light">
+            <h2 class="text-light">A little something for everyone.</h2>
+            <p class="text-light">Here at Fitness101, we believe in self-confidence, self-care 
+                and your overall physical and mental health! Together we can help you find your balance
+                through our local award winning weight lifting program (for all levels of skill)
+                our swim classes, yoga studio with classes, as well as basketball classes, and many more! 
+                Below you will find just a few that we offer.
+            </p>
+        </section>
+    </div>
+
+    <div class="container mt-5 bg-secondary bg-opacity-75 mb-5">
+
+        <!-- Weightlifting Class -->
+        <div class="row mt-5">
+            <div id="lifting" class="col-md-6 bg-dark bg-opacity-75 text-white text-center m-auto">
+                <h2>Weightlifting Classes</h2>
+                <p>Our gym offers a variety of weightlifting classes suited just for you! Whether you are a beginner, or 
+                    an advanced lifter with years of experience, we are confident we have something you can benefit from with us.
+                    We focus on proper form, you will always have someone to spot you, and we usually have this classes around
+                    business hours so that all of our equiptment is free for use! Join us and unleash your unlocked potential and strength!
+                </p>
+            </div>
+            <div class="col-md-6 text-center m-auto mt-5">
+                <img src="static/weight_class.jpg" alt="Weightlifting Class Image" class="img-fluid">
+            </div>
+        </div>
+
+        <!-- Swim Class -->
+
+        <div id="swim" class="row mt-5">
+            <div class="col-md-6 text-center m-auto">
+                <img src="static/swim_class.jpg" alt="Swim Class Image" class="img-fluid">
+            </div>
+            <div class="col-md-6 bg-dark bg-opacity-75 text-white text-center m-auto">
+                <h2>Swim Classes</h2>
+                <p>Our gym offers a variety of swim classes suited just for you! Whether you are a beginner, or 
+                    an advanced swimmer with years of experience, we are confident we have something you can benefit from with us.
+                    We focus on proper form, you will always have someone to spot you, and we usually have this classes around
+                    business hours so that our pool is free for use! Join us and unleash your unlocked potential!
+                </p>
+            </div>
+        </div>
+
+        <!-- Basketball Classes -->
+
+        <div id="bball" class="row mt-5">
+            <div class="col-md-6 bg-dark bg-opacity-75 text-white text-center m-auto">
+                <h2>Basketball Classes</h2>
+                <p>Our gym offers a variety of basketball classes suited just for you! Whether you are a beginner, or 
+                    an advanced player with years of experience, we are confident we have something you can benefit from with us.
+                    We focus on proper form and real plays, you will always have someone to spot you, and we usually have this classes around
+                    business hours so that our court is free for use! Join us and unleash your unlocked potential and become a better player!
+                </p>
+            </div>
+            <div class="col-md-6 text-center m-auto mb-5">
+                <img src="static/basketball_class.jpg" alt="Weightlifting Class Image" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <!-- Repeat footer for continuity and accessibility for questions to be answered -->
+
+    <footer class="bg-dark bg-opacity-75 text-white py-4">
+        <div class="container text-center">
+            <h2 class="text-light">Have a Question? Contact Us!</h2>
+            <div class="mt-4 col-md-6 mx-auto">
+                <input type="email" class="form-control mb-3" placeholder="Email">
+            </div>
+            <div class="mb-3 col-md-6 mx-auto">
+                <textarea class="form-control" placeholder="Your Question Here!" rows="3"></textarea>
+            </div>
+        </div>
+        <div class="col-12 text-center mt-4">
+            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">Submit</button>
+        </div>
+    </footer>
+
+    <!-- Thank you pop up screen -->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Thank you!</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Thank you for submitting your question! We will get back to you as soon as possible!</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

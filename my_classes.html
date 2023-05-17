@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Fitness101 | My Classes</title>
+</head>
+<body style="margin: 0; padding: 0; background-image: url(static/gym_background.jpg); background-repeat: no-repeat; background-size: cover; background-position: center; background-color: black">
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Home</a>
+            <a href="about.html" class="navbar-brand">About</a>
+            <a href="index.html" class="navbar-brand">My Classes</a>
+            <a href="index.html" class="navbar-brand">Contact Us</a>
+        </div>
+    </nav>
+
+   <!-- My Classes -->
+
+   <div class="container" style=" max-width: 900px; margin: auto; padding: 20px">
+        <section class="bg-dark bg-opacity-75 text-center p-4">
+            <section class="text-light"></section>
+            <h2 class="text-light">My Classes</h2>
+            <p class="text-light">You have no classes yet to display. We really encourage you to sign up today!
+            </p>
+            <br>
+            <p class="text-light">If you have any further questions about what services we may provide, or even 
+                input for what we should have in the future. Feel free to send us a question/inquery in the form 
+                at the bottom of the page! We look forward to hearing from you!
+            </p>
+        </section>
+    </div>
+
+        <!-- Repeat footer for continuity and accessibility for questions to be answered -->
+
+        <footer class="bg-dark bg-opacity-75 text-white py-4">
+            <div class="container text-center">
+                <h2 class="text-light">Have a Question? Contact Us!</h2>
+                <div class="mt-4 col-md-6 mx-auto">
+                    <input type="email" class="form-control mb-3" placeholder="Email">
+                </div>
+                <div class="mb-3 col-md-6 mx-auto">
+                    <textarea class="form-control" placeholder="Your Question Here!" rows="3"></textarea>
+                </div>
+            </div>
+            <div class="col-12 text-center mt-4">
+                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">Submit</button>
+            </div>
+        </footer>
+    
+        <!-- Thank you pop up screen -->
+    
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Thank you!</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Thank you for submitting your question! We will get back to you as soon as possible!</p>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+       
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
